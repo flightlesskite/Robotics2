@@ -1,0 +1,13 @@
+Gazebo multi-robot simulator, version 7.9.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1528931687 2691700) [Msg] Waiting for master.
+(1528931687 9237500) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1528931687 13711800) [Msg] Publicized address: 172.17.0.2
+(1528931687 14469000) Loaded .ini file from: "/home/rflab/.gazebo/gui.ini"
+(1528931688 531989800) [Err] [InsertModelWidget.cc:302] Missing model.config for model "/home/rflab/ros_ws/src/baxter/baxter_simulator/baxter_sim_examples/models/block"
+(1528931688 532648300) model.config file is missing in directory["/home/rflab/ros_ws/src/baxter/baxter_simulator/baxter_sim_examples/models/block"]
+(1528931696 783387800) No spacenav daemon found. Spacenav functionality is disabled

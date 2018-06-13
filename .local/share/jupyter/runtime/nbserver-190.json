@@ -1,0 +1,11 @@
+{
+  "base_url": "/", 
+  "hostname": "localhost", 
+  "notebook_dir": "/home/rflab", 
+  "password": false, 
+  "pid": 190, 
+  "port": 8888, 
+  "secure": false, 
+  "token": "53b6604572cb5c93a58abe9b73a43ac0b15be48d60cec62a", 
+  "url": "http://localhost:8888/"
+}

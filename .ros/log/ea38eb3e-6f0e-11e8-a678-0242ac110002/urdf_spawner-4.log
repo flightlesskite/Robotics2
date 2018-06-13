@@ -1,0 +1,52 @@
+[rospy.client][INFO] 2018-06-13 19:53:35,829: init_node, name[/urdf_spawner], pid[7887]
+[xmlrpc][INFO] 2018-06-13 19:53:35,867: XML-RPC server binding to 127.0.0.1:0
+[rospy.init][INFO] 2018-06-13 19:53:35,890: ROS Slave URI: [http://localhost:34773/]
+[xmlrpc][INFO] 2018-06-13 19:53:35,891: Started XML-RPC server [http://localhost:34773/]
+[rospy.impl.masterslave][INFO] 2018-06-13 19:53:35,892: _ready: http://localhost:34773/
+[xmlrpc][INFO] 2018-06-13 19:53:35,911: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-13 19:53:35,928: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-13 19:53:35,991: registered with master
+[rospy.rosout][INFO] 2018-06-13 19:53:35,992: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-13 19:53:36,031: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-13 19:53:36,072: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-13 19:53:36,141: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-13 19:53:36,181: topic[/clock] adding connection to [http://localhost:39783/], count 0
+[rosout][INFO] 2018-06-13 19:53:36,222: Loading model XML from ros parameter
+[rospy.internal][INFO] 2018-06-13 19:53:36,267: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-13 19:53:36,375: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2018-06-13 19:53:36,442: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2018-06-13 19:53:36,636: Spawn status: SpawnModel: Failure - entity already exists.
+[rosout][INFO] 2018-06-13 19:53:36,639: Waiting for service /gazebo/set_model_configuration
+[rosout][INFO] 2018-06-13 19:53:36,671: temporary hack to **fix** the -J joint position option (issue #93), sleeping for 1 second to avoid race condition.
+[rosout][INFO] 2018-06-13 19:53:37,682: Calling service /gazebo/set_model_configuration
+[rosout][INFO] 2018-06-13 19:53:37,736: Set model configuration status: SetModelConfiguration: success
+[rospy.core][INFO] 2018-06-13 19:53:37,741: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-06-13 19:53:37,822: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-13 19:53:37,822: topic[/clock] removing connection to http://localhost:39783/
+[rospy.impl.masterslave][INFO] 2018-06-13 19:53:37,822: atexit
+[rospy.client][INFO] 2018-06-13 23:14:57,858: init_node, name[/urdf_spawner], pid[9249]
+[xmlrpc][INFO] 2018-06-13 23:14:57,889: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2018-06-13 23:14:57,894: Started XML-RPC server [http://localhost:43465/]
+[rospy.impl.masterslave][INFO] 2018-06-13 23:14:57,897: _ready: http://localhost:43465/
+[rospy.init][INFO] 2018-06-13 23:14:57,904: ROS Slave URI: [http://localhost:43465/]
+[xmlrpc][INFO] 2018-06-13 23:14:57,927: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-13 23:14:57,928: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-13 23:14:58,006: registered with master
+[rospy.rosout][INFO] 2018-06-13 23:14:58,007: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-13 23:14:58,019: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-13 23:14:58,039: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-13 23:14:58,106: connected to core topic /clock
+[rosout][INFO] 2018-06-13 23:14:58,139: Loading model XML from ros parameter
+[rospy.internal][INFO] 2018-06-13 23:14:58,196: topic[/clock] adding connection to [http://localhost:39783/], count 0
+[rospy.internal][INFO] 2018-06-13 23:14:58,304: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-13 23:14:58,302: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2018-06-13 23:14:58,347: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2018-06-13 23:14:58,536: Spawn status: SpawnModel: Failure - entity already exists.
+[rosout][INFO] 2018-06-13 23:14:58,539: Waiting for service /gazebo/set_model_configuration
+[rosout][INFO] 2018-06-13 23:14:58,571: temporary hack to **fix** the -J joint position option (issue #93), sleeping for 1 second to avoid race condition.
+[rosout][INFO] 2018-06-13 23:14:59,579: Calling service /gazebo/set_model_configuration
+[rosout][INFO] 2018-06-13 23:14:59,608: Set model configuration status: SetModelConfiguration: success
+[rospy.core][INFO] 2018-06-13 23:14:59,613: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-06-13 23:14:59,687: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-13 23:14:59,688: topic[/clock] removing connection to http://localhost:39783/
+[rospy.impl.masterslave][INFO] 2018-06-13 23:14:59,688: atexit

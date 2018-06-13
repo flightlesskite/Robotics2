@@ -1,0 +1,163 @@
+[rospy.client][INFO] 2018-06-13 15:44:39,732: init_node, name[/baxter_tf_listener], pid[7519]
+[xmlrpc][INFO] 2018-06-13 15:44:39,735: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-13 15:44:39,737: ROS Slave URI: [http://1bec68f2c012:37655/]
+[xmlrpc][INFO] 2018-06-13 15:44:39,737: Started XML-RPC server [http://1bec68f2c012:37655/]
+[rospy.impl.masterslave][INFO] 2018-06-13 15:44:39,738: _ready: http://1bec68f2c012:37655/
+[xmlrpc][INFO] 2018-06-13 15:44:39,739: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-13 15:44:39,740: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-13 15:44:39,838: registered with master
+[rospy.rosout][INFO] 2018-06-13 15:44:39,838: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-13 15:44:39,862: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-13 15:44:39,876: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-13 15:44:39,903: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-13 15:44:39,937: topic[/clock] adding connection to [http://localhost:39783/], count 0
+[rospy.internal][INFO] 2018-06-13 15:44:40,069: topic[/tf_static] adding connection to [http://localhost:45401/], count 0
+[rospy.internal][INFO] 2018-06-13 15:44:40,083: topic[/tf_static] adding connection to [http://localhost:45463/], count 1
+[rospy.internal][INFO] 2018-06-13 15:44:40,107: topic[/tf] adding connection to [http://localhost:45463/], count 0
+[rospy.internal][INFO] 2018-06-13 15:44:40,161: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-13 15:44:46,109: Translation: 
+x: 0.06
+y: 0.0
+z: 0.686
+[rosout][INFO] 2018-06-13 15:44:46,110: Quaternion: 
+x: 0.0
+y: 0.0
+z: -0.00157182551598
+w: 0.999998764682
+[rosout][INFO] 2018-06-13 15:44:46,113: Rotation matrix 
+[[-1.         -0.          0.        ]
+ [ 0.         -0.99999506 -0.00314365]
+ [ 0.         -0.00314365  0.99999506]]
+[rospy.core][INFO] 2018-06-13 15:44:46,119: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-06-13 15:44:46,186: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-13 15:44:46,188: topic[/tf_static] removing connection to http://localhost:45401/
+[rospy.internal][INFO] 2018-06-13 15:44:46,191: topic[/tf_static] removing connection to http://localhost:45463/
+[rospy.internal][INFO] 2018-06-13 15:44:46,193: topic[/clock] removing connection to http://localhost:39783/
+[rospy.internal][INFO] 2018-06-13 15:44:46,195: topic[/tf] removing connection to http://localhost:45463/
+[rospy.impl.masterslave][INFO] 2018-06-13 15:44:46,195: atexit
+[rospy.client][INFO] 2018-06-13 15:45:21,862: init_node, name[/baxter_tf_listener], pid[7556]
+[xmlrpc][INFO] 2018-06-13 15:45:21,863: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-13 15:45:21,864: ROS Slave URI: [http://1bec68f2c012:46325/]
+[xmlrpc][INFO] 2018-06-13 15:45:21,864: Started XML-RPC server [http://1bec68f2c012:46325/]
+[rospy.impl.masterslave][INFO] 2018-06-13 15:45:21,865: _ready: http://1bec68f2c012:46325/
+[xmlrpc][INFO] 2018-06-13 15:45:21,866: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-13 15:45:21,867: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-13 15:45:21,965: registered with master
+[rospy.rosout][INFO] 2018-06-13 15:45:21,966: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-13 15:45:21,981: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-13 15:45:21,992: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-13 15:45:22,023: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-13 15:45:22,055: topic[/clock] adding connection to [http://localhost:39783/], count 0
+[rospy.internal][INFO] 2018-06-13 15:45:22,167: topic[/tf] adding connection to [http://localhost:45463/], count 0
+[rospy.internal][INFO] 2018-06-13 15:45:22,184: topic[/tf_static] adding connection to [http://localhost:45401/], count 0
+[rospy.internal][INFO] 2018-06-13 15:45:22,205: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-06-13 15:45:22,206: topic[/tf_static] adding connection to [http://localhost:45463/], count 1
+[rosout][INFO] 2018-06-13 15:45:26,487: Translation: 
+x: 0.06
+y: 0.0
+z: 0.686
+[rosout][INFO] 2018-06-13 15:45:26,492: Quaternion: 
+x: 0.0
+y: 0.0
+z: -0.00157910041905
+w: 0.99999875322
+[rosout][INFO] 2018-06-13 15:45:26,521: Rotation matrix 
+[[-1.         -0.          0.        ]
+ [ 0.         -0.99999501 -0.0031582 ]
+ [ 0.         -0.0031582   0.99999501]]
+[rosout][INFO] 2018-06-13 15:45:26,555: Homogenous matrix: 
+[[-1.         -0.          0.          0.06      ]
+ [ 0.         -0.99999501 -0.0031582   0.        ]
+ [ 0.         -0.0031582   0.99999501  0.686     ]
+ [ 0.          0.          0.          1.        ]]
+[rosout][INFO] 2018-06-13 15:45:26,636: New quaternion: [ 0.          0.         -0.0015791   0.99999875]
+[rosout][INFO] 2018-06-13 15:45:30,558: Translation: 
+x: 0.06
+y: 0.0
+z: 0.686
+[rosout][INFO] 2018-06-13 15:45:30,559: Quaternion: 
+x: 0.0
+y: 0.0
+z: -0.00158007306107
+w: 0.999998751684
+[rosout][INFO] 2018-06-13 15:45:30,564: Rotation matrix 
+[[-1.         -0.          0.        ]
+ [ 0.         -0.99999501 -0.00316014]
+ [ 0.         -0.00316014  0.99999501]]
+[rosout][INFO] 2018-06-13 15:45:30,573: Homogenous matrix: 
+[[-1.         -0.          0.          0.06      ]
+ [ 0.         -0.99999501 -0.00316014  0.        ]
+ [ 0.         -0.00316014  0.99999501  0.686     ]
+ [ 0.          0.          0.          1.        ]]
+[rosout][INFO] 2018-06-13 15:45:30,580: New quaternion: [ 0.          0.         -0.00158007  0.99999875]
+[rospy.core][INFO] 2018-06-13 15:45:33,464: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-13 15:45:33,501: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-13 15:45:33,502: topic[/tf_static] removing connection to http://localhost:45401/
+[rospy.internal][INFO] 2018-06-13 15:45:33,510: topic[/tf_static] removing connection to http://localhost:45463/
+[rospy.internal][INFO] 2018-06-13 15:45:33,514: topic[/clock] removing connection to http://localhost:39783/
+[rospy.internal][INFO] 2018-06-13 15:45:33,517: topic[/tf] removing connection to http://localhost:45463/
+[rospy.impl.masterslave][INFO] 2018-06-13 15:45:33,519: signal-2
+[rospy.core][INFO] 2018-06-13 15:45:34,108: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-13 19:51:11,503: init_node, name[/baxter_tf_listener], pid[7594]
+[xmlrpc][INFO] 2018-06-13 19:51:11,529: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-13 19:51:11,538: ROS Slave URI: [http://1bec68f2c012:32983/]
+[xmlrpc][INFO] 2018-06-13 19:51:11,538: Started XML-RPC server [http://1bec68f2c012:32983/]
+[rospy.impl.masterslave][INFO] 2018-06-13 19:51:11,541: _ready: http://1bec68f2c012:32983/
+[xmlrpc][INFO] 2018-06-13 19:51:11,571: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-13 19:51:11,573: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-13 19:51:11,640: registered with master
+[rospy.rosout][INFO] 2018-06-13 19:51:11,640: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-13 19:51:11,650: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-13 19:51:11,674: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-13 19:51:11,701: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-13 19:51:11,734: topic[/clock] adding connection to [http://localhost:39783/], count 0
+[rospy.internal][INFO] 2018-06-13 19:51:11,858: topic[/tf_static] adding connection to [http://localhost:45401/], count 0
+[rospy.internal][INFO] 2018-06-13 19:51:11,884: topic[/tf_static] adding connection to [http://localhost:45463/], count 1
+[rospy.internal][INFO] 2018-06-13 19:51:11,888: topic[/tf] adding connection to [http://localhost:45463/], count 0
+[rospy.internal][INFO] 2018-06-13 19:51:11,903: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-13 19:51:19,579: Translation: 
+x: 0.06
+y: 0.0
+z: 0.686
+[rosout][INFO] 2018-06-13 19:51:19,581: Quaternion: 
+x: 0.0
+y: 0.0
+z: -0.00326672194368
+w: 0.99999466425
+[rosout][INFO] 2018-06-13 19:51:19,607: Rotation matrix 
+[[-1.         -0.          0.        ]
+ [ 0.         -0.99997866 -0.00653341]
+ [ 0.         -0.00653341  0.99997866]]
+[rosout][INFO] 2018-06-13 19:51:19,630: Homogenous matrix: 
+[[-1.         -0.          0.          0.06      ]
+ [ 0.         -0.99997866 -0.00653341  0.        ]
+ [ 0.         -0.00653341  0.99997866  0.686     ]
+ [ 0.          0.          0.          1.        ]]
+[rosout][INFO] 2018-06-13 19:51:19,651: New quaternion: [ 0.          0.         -0.00326672  0.99999466]
+[rosout][INFO] 2018-06-13 19:51:30,253: Translation: 
+x: 0.06
+y: 0.0
+z: 0.686
+[rosout][INFO] 2018-06-13 19:51:30,255: Quaternion: 
+x: 0.0
+y: 0.0
+z: -0.00326768850081
+w: 0.999994661092
+[rosout][INFO] 2018-06-13 19:51:30,260: Rotation matrix 
+[[-1.         -0.          0.        ]
+ [ 0.         -0.99997864 -0.00653534]
+ [ 0.         -0.00653534  0.99997864]]
+[rosout][INFO] 2018-06-13 19:51:30,269: Homogenous matrix: 
+[[-1.         -0.          0.          0.06      ]
+ [ 0.         -0.99997864 -0.00653534  0.        ]
+ [ 0.         -0.00653534  0.99997864  0.686     ]
+ [ 0.          0.          0.          1.        ]]
+[rosout][INFO] 2018-06-13 19:51:30,274: New quaternion: [ 0.          0.         -0.00326769  0.99999466]
+[rospy.core][INFO] 2018-06-13 19:51:32,494: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-13 19:51:32,594: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-13 19:51:32,595: topic[/tf_static] removing connection to http://localhost:45401/
+[rospy.internal][INFO] 2018-06-13 19:51:32,596: topic[/tf_static] removing connection to http://localhost:45463/
+[rospy.internal][INFO] 2018-06-13 19:51:32,597: topic[/clock] removing connection to http://localhost:39783/
+[rospy.internal][INFO] 2018-06-13 19:51:32,598: topic[/tf] removing connection to http://localhost:45463/
+[rospy.impl.masterslave][INFO] 2018-06-13 19:51:32,599: signal-2
+[rospy.core][INFO] 2018-06-13 19:51:33,123: signal_shutdown [atexit]
