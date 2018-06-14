@@ -94,3 +94,100 @@ AttributeError: 'NoneType' object has no attribute 'getsockname'
 [rospy.internal][INFO] 2018-06-13 23:20:57,683: topic[/robot/limb/left/endpoint_state] removing connection to http://localhost:35967/
 [rospy.internal][INFO] 2018-06-13 23:20:57,684: topic[/robot/limb/right/endpoint_state] removing connection to http://localhost:42253/
 [rospy.impl.masterslave][INFO] 2018-06-13 23:20:57,684: atexit
+[rospy.client][INFO] 2018-06-14 14:09:53,587: init_node, name[/rsdk_ik_service_client], pid[14215]
+[xmlrpc][INFO] 2018-06-14 14:09:53,594: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-14 14:09:53,610: Started XML-RPC server [http://1bec68f2c012:43093/]
+[rospy.init][INFO] 2018-06-14 14:09:53,613: ROS Slave URI: [http://1bec68f2c012:43093/]
+[rospy.impl.masterslave][INFO] 2018-06-14 14:09:53,613: _ready: http://1bec68f2c012:43093/
+[xmlrpc][INFO] 2018-06-14 14:09:53,631: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-14 14:09:53,636: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-14 14:09:53,715: registered with master
+[rospy.rosout][INFO] 2018-06-14 14:09:53,715: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-14 14:09:53,734: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-14 14:09:53,754: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-14 14:09:53,779: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-14 14:09:53,835: topic[/clock] adding connection to [http://localhost:34321/], count 0
+[rospy.core][INFO] 2018-06-14 14:09:53,886: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-06-14 14:09:53,914: topic[/clock] removing connection to http://localhost:34321/
+[rospy.impl.masterslave][INFO] 2018-06-14 14:09:53,915: atexit
+[rospy.client][INFO] 2018-06-14 14:10:35,944: init_node, name[/rsdk_ik_service_client], pid[14239]
+[xmlrpc][INFO] 2018-06-14 14:10:35,958: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-14 14:10:35,963: Started XML-RPC server [http://1bec68f2c012:43137/]
+[rospy.impl.masterslave][INFO] 2018-06-14 14:10:35,964: _ready: http://1bec68f2c012:43137/
+[rospy.init][INFO] 2018-06-14 14:10:35,965: ROS Slave URI: [http://1bec68f2c012:43137/]
+[xmlrpc][INFO] 2018-06-14 14:10:35,980: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-14 14:10:35,981: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-14 14:10:36,066: registered with master
+[rospy.rosout][INFO] 2018-06-14 14:10:36,066: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-14 14:10:36,083: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-14 14:10:36,111: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-14 14:10:36,160: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-14 14:10:36,217: topic[/clock] adding connection to [http://localhost:34321/], count 0
+[rospy.internal][INFO] 2018-06-14 14:10:36,291: topic[/robot/state] adding connection to [http://localhost:46853/], count 0
+[rospy.internal][INFO] 2018-06-14 14:10:36,316: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-14 14:10:36,378: Enabling Baxter
+[rospy.internal][INFO] 2018-06-14 14:10:36,556: topic[/robot/limb/left/endpoint_state] adding connection to [http://localhost:37407/], count 0
+[rospy.internal][INFO] 2018-06-14 14:10:36,563: topic[/robot/joint_states] adding connection to [http://localhost:34321/], count 0
+[rospy.internal][INFO] 2018-06-14 14:10:36,673: topic[/robot/limb/left/joint_command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2018-06-14 14:10:36,845: topic[/robot/limb/right/endpoint_state] adding connection to [http://localhost:38367/], count 0
+[rospy.internal][INFO] 2018-06-14 14:10:36,999: topic[/robot/limb/right/joint_command] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2018-06-14 14:12:57,336: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-14 14:12:57,399: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-14 14:12:57,400: topic[/robot/limb/left/joint_command] removing connection to /gazebo
+[rospy.internal][INFO] 2018-06-14 14:12:57,401: topic[/robot/limb/right/joint_command] removing connection to /gazebo
+[rospy.internal][INFO] 2018-06-14 14:12:57,404: topic[/clock] removing connection to http://localhost:34321/
+[rospy.internal][INFO] 2018-06-14 14:12:57,404: topic[/robot/joint_states] removing connection to http://localhost:34321/
+[rospy.internal][WARNING] 2018-06-14 14:12:57,406: Unknown error initiating TCP/IP socket to localhost:55819 (http://localhost:46853/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2018-06-14 14:12:57,406: topic[/robot/state] removing connection to http://localhost:46853/
+[rospy.internal][INFO] 2018-06-14 14:12:57,407: topic[/robot/limb/left/endpoint_state] removing connection to http://localhost:37407/
+[rospy.internal][INFO] 2018-06-14 14:12:57,408: topic[/robot/limb/right/endpoint_state] removing connection to http://localhost:38367/
+[rospy.impl.masterslave][INFO] 2018-06-14 14:12:57,408: signal-2
+[rospy.core][INFO] 2018-06-14 14:12:58,021: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-14 14:17:35,323: init_node, name[/rsdk_ik_service_client], pid[17506]
+[xmlrpc][INFO] 2018-06-14 14:17:35,361: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-14 14:17:35,369: ROS Slave URI: [http://1bec68f2c012:34027/]
+[xmlrpc][INFO] 2018-06-14 14:17:35,366: Started XML-RPC server [http://1bec68f2c012:34027/]
+[rospy.impl.masterslave][INFO] 2018-06-14 14:17:35,370: _ready: http://1bec68f2c012:34027/
+[xmlrpc][INFO] 2018-06-14 14:17:35,395: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-14 14:17:35,399: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-14 14:17:35,470: registered with master
+[rospy.rosout][INFO] 2018-06-14 14:17:35,470: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-14 14:17:35,493: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-14 14:17:35,505: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-14 14:17:35,557: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-14 14:17:35,587: topic[/clock] adding connection to [http://localhost:40415/], count 0
+[rospy.internal][INFO] 2018-06-14 14:17:35,697: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2018-06-14 14:17:35,720: topic[/robot/state] adding connection to [http://localhost:39181/], count 0
+[rosout][INFO] 2018-06-14 14:17:35,796: Enabling Baxter
+[rospy.internal][INFO] 2018-06-14 14:17:36,045: topic[/robot/set_super_enable] adding connection to [/baxter_emulator], count 0
+[rosout][INFO] 2018-06-14 14:17:36,238: Robot Enabled
+[rospy.internal][INFO] 2018-06-14 14:17:36,381: topic[/robot/limb/left/endpoint_state] adding connection to [http://localhost:43457/], count 0
+[rospy.internal][INFO] 2018-06-14 14:17:36,418: topic[/robot/joint_states] adding connection to [http://localhost:40415/], count 0
+[rospy.internal][INFO] 2018-06-14 14:17:36,522: topic[/robot/limb/left/joint_command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2018-06-14 14:17:36,651: topic[/robot/limb/right/endpoint_state] adding connection to [http://localhost:46553/], count 0
+[rospy.internal][INFO] 2018-06-14 14:17:36,749: topic[/robot/limb/right/joint_command] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2018-06-14 14:18:57,077: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-06-14 14:18:57,137: topic[/robot/set_super_enable] removing connection to /baxter_emulator
+[rospy.internal][INFO] 2018-06-14 14:18:57,138: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-14 14:18:57,138: topic[/robot/limb/left/joint_command] removing connection to /gazebo
+[rospy.internal][INFO] 2018-06-14 14:18:57,146: topic[/robot/limb/right/joint_command] removing connection to /gazebo
+[rospy.internal][INFO] 2018-06-14 14:18:57,147: topic[/clock] removing connection to http://localhost:40415/
+[rospy.internal][INFO] 2018-06-14 14:18:57,150: topic[/robot/joint_states] removing connection to http://localhost:40415/
+[rospy.internal][INFO] 2018-06-14 14:18:57,153: topic[/robot/state] removing connection to http://localhost:39181/
+[rospy.internal][WARNING] 2018-06-14 14:18:57,159: Unknown error initiating TCP/IP socket to localhost:34649 (http://localhost:43457/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+  File "/usr/lib/python2.7/socket.py", line 174, in _dummy
+    raise error(EBADF, 'Bad file descriptor')
+error: [Errno 9] Bad file descriptor
+
+[rospy.internal][INFO] 2018-06-14 14:18:57,159: topic[/robot/limb/left/endpoint_state] removing connection to http://localhost:43457/
+[rospy.internal][INFO] 2018-06-14 14:18:57,161: topic[/robot/limb/left/endpoint_state] removing connection to http://localhost:43457/
+[rospy.internal][INFO] 2018-06-14 14:18:57,164: topic[/robot/limb/right/endpoint_state] removing connection to http://localhost:46553/
+[rospy.impl.masterslave][INFO] 2018-06-14 14:18:57,164: atexit

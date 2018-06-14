@@ -300,3 +300,37 @@ log file: /home/rflab/.ros/log/ea38eb3e-6f0e-11e8-a678-0242ac110002/baxter_emula
 log file: /home/rflab/.ros/log/ea38eb3e-6f0e-11e8-a678-0242ac110002/robot_state_publisher-13*.log
 [roslaunch.pmon][INFO] 2018-06-13 19:54:03,891: ProcessMonitor.unregister[robot_state_publisher-13] starting
 [roslaunch.pmon][INFO] 2018-06-13 19:54:03,891: ProcessMonitor.unregister[robot_state_publisher-13] complete
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,907: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140157898540800)>
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,984: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140157898540800)>
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,984: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140157898540800)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f790df595d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f790df56e50>, <roslaunch.nodeprocess.LocalProcess object at 0x7f790deb2d10>]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:02,006: ProcessMonitor exit: killing gazebo-2
+[roslaunch][INFO] 2018-06-13 23:46:02,009: [gazebo-2] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:02,021: process[gazebo-2]: killing os process with pid[346] pgid[346]
+[roslaunch][INFO] 2018-06-13 23:46:02,038: [gazebo-2] sending SIGINT to pgid [346]
+[roslaunch][INFO] 2018-06-13 23:46:02,049: [gazebo-2] sent SIGINT to pgid [346]
+[roslaunch][ERROR] 2018-06-13 23:46:17,114: [gazebo-2] escalating to SIGTERM
+[roslaunch][INFO] 2018-06-13 23:46:17,115: [gazebo-2] sent SIGTERM to pgid [346]
+[roslaunch][INFO] 2018-06-13 23:46:17,316: process[gazebo-2]: SIGTERM killed with return value -15
+[roslaunch.pmon][INFO] 2018-06-13 23:46:17,317: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2018-06-13 23:46:17,318: [rosout-1] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:17,318: process[rosout-1]: killing os process with pid[322] pgid[322]
+[roslaunch][INFO] 2018-06-13 23:46:17,318: [rosout-1] sending SIGINT to pgid [322]
+[roslaunch][INFO] 2018-06-13 23:46:17,318: [rosout-1] sent SIGINT to pgid [322]
+[roslaunch][INFO] 2018-06-13 23:46:17,621: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2018-06-13 23:46:17,622: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2018-06-13 23:46:17,622: [master] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:17,622: process[master]: killing os process with pid[309] pgid[309]
+[roslaunch][INFO] 2018-06-13 23:46:17,623: [master] sending SIGINT to pgid [309]
+[roslaunch][INFO] 2018-06-13 23:46:17,623: [master] sent SIGINT to pgid [309]
+[roslaunch][INFO] 2018-06-13 23:46:17,827: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2018-06-13 23:46:17,827: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2018-06-13 23:46:17,828: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2018-06-13 23:46:17,858: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2018-06-13 23:46:17,859: runner.stop()
+[roslaunch][INFO] 2018-06-13 23:46:17,859: shutting down processing monitor...
+[roslaunch][INFO] 2018-06-13 23:46:17,859: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140157898540800)>
+[roslaunch.pmon][INFO] 2018-06-13 23:46:17,859: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140157898540800)>
+[roslaunch][INFO] 2018-06-13 23:46:17,859: ... shutting down processing monitor complete
+[roslaunch][INFO] 2018-06-13 23:46:17,860: done
+[roslaunch.pmon][INFO] 2018-06-13 23:46:17,860: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140157898540800)>
+[rospy.core][INFO] 2018-06-13 23:46:17,860: signal_shutdown [atexit]

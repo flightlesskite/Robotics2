@@ -253,3 +253,53 @@ log file: /home/rflab/.ros/log/ea38eb3e-6f0e-11e8-a678-0242ac110002/robot-right_
 log file: /home/rflab/.ros/log/ea38eb3e-6f0e-11e8-a678-0242ac110002/baxter_sim_io-13*.log
 [roslaunch.pmon][INFO] 2018-06-13 23:15:37,089: ProcessMonitor.unregister[baxter_sim_io-13] starting
 [roslaunch.pmon][INFO] 2018-06-13 23:15:37,097: ProcessMonitor.unregister[baxter_sim_io-13] complete
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,325: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140717623346944)>
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,345: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140717623346944)>
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,346: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140717623346944)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7ffb6016bb50>, <roslaunch.nodeprocess.LocalProcess object at 0x7ffb601bd2d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7ffb601bd610>, <roslaunch.nodeprocess.LocalProcess object at 0x7ffb601bd690>, <roslaunch.nodeprocess.LocalProcess object at 0x7ffb601bd7d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7ffb601bd990>]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,351: ProcessMonitor exit: killing robot_state_publisher-12
+[roslaunch][INFO] 2018-06-13 23:46:01,355: [robot_state_publisher-12] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:01,359: process[robot_state_publisher-12]: killing os process with pid[9712] pgid[9712]
+[roslaunch][INFO] 2018-06-13 23:46:01,363: [robot_state_publisher-12] sending SIGINT to pgid [9712]
+[roslaunch][INFO] 2018-06-13 23:46:01,367: [robot_state_publisher-12] sent SIGINT to pgid [9712]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,371: ProcessMonitor exit: killing baxter_emulator-7
+[roslaunch][INFO] 2018-06-13 23:46:01,372: [baxter_emulator-7] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:01,373: process[baxter_emulator-7]: killing os process with pid[9358] pgid[9358]
+[roslaunch][INFO] 2018-06-13 23:46:01,377: [baxter_emulator-7] sending SIGINT to pgid [9358]
+[roslaunch][INFO] 2018-06-13 23:46:01,379: [baxter_emulator-7] sent SIGINT to pgid [9358]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,384: ProcessMonitor exit: killing baxter_sim_kinematics_right-6
+[roslaunch][INFO] 2018-06-13 23:46:01,391: [baxter_sim_kinematics_right-6] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:01,392: process[baxter_sim_kinematics_right-6]: killing os process with pid[9292] pgid[9292]
+[roslaunch][INFO] 2018-06-13 23:46:01,392: [baxter_sim_kinematics_right-6] sending SIGINT to pgid [9292]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,417: ProcessMonitor exit: killing baxter_sim_kinematics_left-5
+[roslaunch][INFO] 2018-06-13 23:46:01,430: [baxter_sim_kinematics_left-5] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:01,420: [baxter_sim_kinematics_right-6] sent SIGINT to pgid [9292]
+[roslaunch][INFO] 2018-06-13 23:46:01,437: process[baxter_sim_kinematics_left-5]: killing os process with pid[9279] pgid[9279]
+[roslaunch][INFO] 2018-06-13 23:46:01,440: [baxter_sim_kinematics_left-5] sending SIGINT to pgid [9279]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,449: ProcessMonitor exit: killing base_to_world-3
+[roslaunch][INFO] 2018-06-13 23:46:01,456: [base_to_world-3] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:01,457: process[base_to_world-3]: killing os process with pid[9221] pgid[9221]
+[roslaunch][INFO] 2018-06-13 23:46:01,458: [base_to_world-3] sending SIGINT to pgid [9221]
+[roslaunch][INFO] 2018-06-13 23:46:01,463: [base_to_world-3] sent SIGINT to pgid [9221]
+[roslaunch][INFO] 2018-06-13 23:46:01,452: [baxter_sim_kinematics_left-5] sent SIGINT to pgid [9279]
+[roslaunch.pmon][INFO] 2018-06-13 23:46:01,473: ProcessMonitor exit: killing gazebo_gui-2
+[roslaunch][INFO] 2018-06-13 23:46:01,474: [gazebo_gui-2] killing on exit
+[roslaunch][INFO] 2018-06-13 23:46:01,474: process[gazebo_gui-2]: killing os process with pid[9181] pgid[9181]
+[roslaunch][INFO] 2018-06-13 23:46:01,475: [gazebo_gui-2] sending SIGINT to pgid [9181]
+[roslaunch][INFO] 2018-06-13 23:46:01,477: [gazebo_gui-2] sent SIGINT to pgid [9181]
+[roslaunch][INFO] 2018-06-13 23:46:02,277: process[base_to_world-3]: SIGINT killed with return value 0
+[roslaunch][INFO] 2018-06-13 23:46:02,374: process[robot_state_publisher-12]: SIGINT killed with return value 0
+[roslaunch][INFO] 2018-06-13 23:46:02,582: process[gazebo_gui-2]: SIGINT killed with return value -2
+[roslaunch][INFO] 2018-06-13 23:46:02,739: process[baxter_sim_kinematics_right-6]: SIGINT killed with return value 0
+[roslaunch][INFO] 2018-06-13 23:46:02,776: process[baxter_sim_kinematics_left-5]: SIGINT killed with return value 0
+[roslaunch][INFO] 2018-06-13 23:46:03,186: process[baxter_emulator-7]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2018-06-13 23:46:03,187: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2018-06-13 23:46:03,188: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2018-06-13 23:46:03,238: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2018-06-13 23:46:03,238: runner.stop()
+[roslaunch][INFO] 2018-06-13 23:46:03,239: shutting down processing monitor...
+[roslaunch][INFO] 2018-06-13 23:46:03,239: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140717623346944)>
+[roslaunch.pmon][INFO] 2018-06-13 23:46:03,239: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140717623346944)>
+[roslaunch][INFO] 2018-06-13 23:46:03,239: ... shutting down processing monitor complete
+[roslaunch][INFO] 2018-06-13 23:46:03,239: done
+[roslaunch.pmon][INFO] 2018-06-13 23:46:03,239: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140717623346944)>
+[rospy.core][INFO] 2018-06-13 23:46:03,240: signal_shutdown [atexit]

@@ -3134,3 +3134,245 @@ Fault: <Fault -1: 'publisherUpdate: unknown method name'>
 [rosmaster.master][INFO] 2018-06-13 23:20:57,679: publisherUpdate[/robot/limb/right/joint_command] -> http://localhost:39783/ []
 [rosmaster.master][INFO] 2018-06-13 23:20:57,680: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:45085/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:41209/', 'http://localhost:33763/', 'http://localhost:38607/']: sec=0.00, result=[1, '', 0]
 [rosmaster.master][INFO] 2018-06-13 23:20:57,681: publisherUpdate[/robot/limb/right/joint_command] -> http://localhost:39783/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,432: -PUB [/rosout] /robot_state_publisher http://localhost:38607/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,441: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:45085/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:41209/', 'http://localhost:33763/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,446: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:45085/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:41209/', 'http://localhost:33763/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,458: -SERVICE [/gazebo_client/get_loggers] /gazebo_client rosrpc://localhost:55095
+[rosmaster.master][INFO] 2018-06-13 23:46:01,535: -SERVICE [/ExternalTools/right/PositionKinematicsNode/IKService] /baxter_sim_kinematics_right rosrpc://localhost:39567
+[rosmaster.master][INFO] 2018-06-13 23:46:01,560: -SERVICE [/ExternalTools/left/PositionKinematicsNode/IKService] /baxter_sim_kinematics_left rosrpc://localhost:40717
+[rosmaster.master][INFO] 2018-06-13 23:46:01,616: -PUB [/tf] /robot_state_publisher http://localhost:38607/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,625: publisherUpdate[/tf] -> http://localhost:35967/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,635: -PUB [/rosout] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,664: publisherUpdate[/tf] -> http://localhost:42253/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,683: publisherUpdate[/tf] -> http://localhost:41209/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,685: -PUB [/rosout] /base_to_world http://localhost:45085/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,704: publisherUpdate[/tf] -> http://localhost:41209/ []: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2018-06-13 23:46:01,713: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-13 23:46:01,713: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:45085/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:33763/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,712: -SUB [/robot/joint_states] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,716: -SUB [/robot/joint_states] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,718: publisherUpdate[/tf] -> http://localhost:35967/ []: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,722: -SERVICE [/gazebo_client/set_logger_level] /gazebo_client rosrpc://localhost:55095
+[rosmaster.master][INFO] 2018-06-13 23:46:01,729: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:45085/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:33763/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,731: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:33763/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,740: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:35967/', 'http://localhost:42253/', 'http://localhost:33763/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,782: -PUB [/tf_static] /robot_state_publisher http://localhost:38607/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,795: -PUB [/robot/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,824: publisherUpdate[/tf_static] -> http://localhost:35967/ ['http://localhost:45085/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,833: -PUB [/tf_static] /base_to_world http://localhost:45085/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,850: publisherUpdate[/tf_static] -> http://localhost:41209/ ['http://localhost:45085/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,853: publisherUpdate[/tf_static] -> http://localhost:41209/ ['http://localhost:45085/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2018-06-13 23:46:01,858: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-13 23:46:01,859: publisherUpdate[/robot/state] -> http://localhost:39783/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,866: -SUB [/robot/state] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,874: publisherUpdate[/robot/state] -> http://localhost:39783/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,890: publisherUpdate[/tf_static] -> http://localhost:35967/ ['http://localhost:45085/']: sec=0.07, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,893: publisherUpdate[/robot/state] -> http://localhost:35967/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,892: publisherUpdate[/tf_static] -> http://localhost:41209/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,899: publisherUpdate[/robot/state] -> http://localhost:35967/ []: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,899: publisherUpdate[/tf_static] -> http://localhost:35967/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,905: publisherUpdate[/tf_static] -> http://localhost:35967/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,902: publisherUpdate[/tf_static] -> http://localhost:41209/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2018-06-13 23:46:01,906: -SUB [/robot/state] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,910: publisherUpdate[/tf] -> http://localhost:42253/ []: sec=0.24, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,910: publisherUpdate[/tf_static] -> http://localhost:42253/ ['http://localhost:45085/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,912: publisherUpdate[/tf_static] -> http://localhost:42253/ ['http://localhost:45085/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,912: publisherUpdate[/robot/state] -> http://localhost:42253/ []
+[rosmaster.threadpool][ERROR] 2018-06-13 23:46:01,911: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-13 23:46:01,919: publisherUpdate[/robot/state] -> http://localhost:42253/ []: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,921: publisherUpdate[/tf_static] -> http://localhost:42253/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:01,924: publisherUpdate[/tf_static] -> http://localhost:42253/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,935: -PUB [/rosout] /gazebo_client http://localhost:33763/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,936: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:35967/', 'http://localhost:42253/']
+[rosmaster.master][INFO] 2018-06-13 23:46:01,948: -PUB [/robot/end_effector/left_gripper/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,960: -SUB [/clock] /robot_state_publisher http://localhost:38607/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,978: -SUB [/clock] /base_to_world http://localhost:45085/
+[rosmaster.master][INFO] 2018-06-13 23:46:01,984: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:35967/', 'http://localhost:42253/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:01,991: -PUB [/robot/limb/left/endpoint_state] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,026: -PUB [/robot/end_effector/right_gripper/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,026: -PUB [/robot/limb/right/endpoint_state] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,052: -SUB [/robot/joint_states] /robot_state_publisher http://localhost:38607/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,074: -SUB [/clock] /gazebo_client http://localhost:33763/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,087: -SERVICE [/base_to_world/get_loggers] /base_to_world rosrpc://localhost:46153
+[rosmaster.master][INFO] 2018-06-13 23:46:02,121: -SUB [/tf_static] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,149: -PUB [/robot/end_effector/left_gripper/properties] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,161: -SUB [/tf_static] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,167: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://localhost:41869
+[rosmaster.master][INFO] 2018-06-13 23:46:02,182: -SUB [/robot/xdisplay] /gazebo_client http://localhost:33763/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,198: -SERVICE [/base_to_world/set_logger_level] /base_to_world rosrpc://localhost:46153
+[rosmaster.master][INFO] 2018-06-13 23:46:02,218: -SUB [/gazebo/set_link_state] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,222: -SUB [/tf] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,239: -PUB [/robot/end_effector/right_gripper/properties] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,246: -SUB [/tf] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,258: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://localhost:41869
+[rosmaster.master][INFO] 2018-06-13 23:46:02,275: -SUB [/gazebo/set_model_state] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,284: -PUB [/robot/range/left_hand_range/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,296: -PUB [/clock] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,306: publisherUpdate[/clock] -> http://localhost:37189/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:02,311: publisherUpdate[/clock] -> http://localhost:39783/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:02,312: publisherUpdate[/clock] -> http://localhost:37189/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,312: publisherUpdate[/clock] -> http://localhost:35967/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:02,314: publisherUpdate[/clock] -> http://localhost:39783/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,315: publisherUpdate[/clock] -> http://localhost:42253/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:02,317: publisherUpdate[/clock] -> http://localhost:42253/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,324: publisherUpdate[/clock] -> http://localhost:35967/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,328: publisherUpdate[/clock] -> http://localhost:41209/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:02,334: publisherUpdate[/clock] -> http://localhost:41209/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2018-06-13 23:46:02,340: -PUB [/robot/range/right_hand_range/state] /baxter_emulator http://localhost:41209/
+[rosmaster.threadpool][ERROR] 2018-06-13 23:46:02,344: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-13 23:46:02,359: -PUB [/gazebo/link_states] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,367: -PUB [/robot/analog_io/left_hand_range/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,390: -PUB [/gazebo/model_states] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,414: -PUB [/robot/analog_io/right_hand_range/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,435: -PUB [/robot/analog_io/left_hand_range/value_uint32] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,476: -PUB [/rosout] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,503: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,535: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:35967/']
+[rosmaster.master][INFO] 2018-06-13 23:46:02,543: -PUB [/robot/analog_io/right_hand_range/value_uint32] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,544: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/', 'http://localhost:35967/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,547: -SUB [/clock] /baxter_sim_kinematics_right http://localhost:42253/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,561: -PUB [/rosout] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,562: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/']
+[rosmaster.master][INFO] 2018-06-13 23:46:02,568: publisherUpdate[/rosout] -> http://localhost:37189/ ['http://localhost:39783/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,571: -PUB [/robot/digital_io/left_inner_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,577: -SERVICE [/baxter_sim_kinematics_right/get_loggers] /baxter_sim_kinematics_right rosrpc://localhost:39567
+[rosmaster.master][INFO] 2018-06-13 23:46:02,593: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,607: -SUB [/clock] /baxter_sim_kinematics_left http://localhost:35967/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,624: -SERVICE [/baxter_sim_kinematics_right/set_logger_level] /baxter_sim_kinematics_right rosrpc://localhost:39567
+[rosmaster.master][INFO] 2018-06-13 23:46:02,648: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,657: -PUB [/robot/digital_io/left_outer_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,675: -SERVICE [/baxter_sim_kinematics_left/get_loggers] /baxter_sim_kinematics_left rosrpc://localhost:40717
+[rosmaster.master][INFO] 2018-06-13 23:46:02,688: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,695: -PUB [/robot/digital_io/torso_left_inner_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,707: -SERVICE [/baxter_sim_kinematics_left/set_logger_level] /baxter_sim_kinematics_left rosrpc://localhost:40717
+[rosmaster.master][INFO] 2018-06-13 23:46:02,721: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,726: -PUB [/robot/digital_io/torso_left_outer_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,750: -PUB [/robot/digital_io/right_inner_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,767: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,772: -PUB [/robot/digital_io/right_outer_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,789: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,796: -PUB [/robot/digital_io/torso_right_inner_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,809: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,816: -PUB [/robot/digital_io/torso_right_outer_light/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,825: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,838: -PUB [/robot/limb/left/gravity_compensation_torques] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,842: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,852: -PUB [/robot/limb/right/gravity_compensation_torques] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,860: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,869: -PUB [/robot/head/head_state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,880: -PUB [/robot/sim/started] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,888: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,898: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,906: -PUB [/robot/xdisplay] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,915: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,925: -SUB [/clock] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,937: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,945: publisherUpdate[/robot/xdisplay] -> http://localhost:39783/ []
+[rosmaster.master][INFO] 2018-06-13 23:46:02,947: publisherUpdate[/robot/xdisplay] -> http://localhost:39783/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-13 23:46:02,949: -SUB [/robot/set_super_enable] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,962: -SUB [/robot/set_super_stop] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,964: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,976: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:02,987: -SUB [/robot/set_super_reset] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:02,994: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,001: -SUB [/robot/joint_states] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,010: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,017: -SUB [/sim/laserscan/left_hand_range/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,024: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,032: -SUB [/sim/laserscan/right_hand_range/state] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,040: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,046: -SUB [/robot/digital_io/command] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,055: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,061: -SUB [/robot/head/command_head_nod] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,066: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,072: -SUB [/tf] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,084: -SUB [/tf_static] /baxter_emulator http://localhost:41209/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,094: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,102: -SERVICE [/baxter_emulator/get_loggers] /baxter_emulator rosrpc://localhost:48035
+[rosmaster.master][INFO] 2018-06-13 23:46:03,110: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,120: -SERVICE [/baxter_emulator/set_logger_level] /baxter_emulator rosrpc://localhost:48035
+[rosmaster.master][INFO] 2018-06-13 23:46:03,130: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,138: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:03,147: -PUB [/gazebo/parameter_descriptions] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,154: -PUB [/gazebo/parameter_updates] /gazebo http://localhost:39783/
+[rosmaster.master][INFO] 2018-06-13 23:46:03,160: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://localhost:40573
+[rosmaster.master][INFO] 2018-06-13 23:46:17,524: -PUB [/rosout_agg] /rosout http://localhost:37189/
+[rosmaster.master][INFO] 2018-06-13 23:46:17,526: -SUB [/clock] /rosout http://localhost:37189/
+[rosmaster.master][INFO] 2018-06-13 23:46:17,528: -SUB [/rosout] /rosout http://localhost:37189/
+[rosmaster.master][INFO] 2018-06-13 23:46:17,529: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:49009
+[rosmaster.master][INFO] 2018-06-13 23:46:17,531: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:49009
+[rosmaster.main][INFO] 2018-06-13 23:46:17,623: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-06-13 23:46:17,624: stopping master...
+[rospy.core][INFO] 2018-06-13 23:46:17,624: signal_shutdown [atexit]

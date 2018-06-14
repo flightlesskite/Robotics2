@@ -1,0 +1,3 @@
+[0m[ INFO] [1528984350.894723900]: Spinning until killed publishing world to base[0m
+[33m[ WARN] [1528984583.634953600, 32.003000000]: Shutdown request received.[0m
+[33m[ WARN] [1528984583.635031800, 32.003000000]: Reason given for shutdown: [new node registered with same name][0m

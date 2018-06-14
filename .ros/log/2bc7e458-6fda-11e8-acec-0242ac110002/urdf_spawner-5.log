@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2018-06-14 13:52:34,365: init_node, name[/urdf_spawner], pid[3927]
+[xmlrpc][INFO] 2018-06-14 13:52:34,380: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2018-06-14 13:52:34,384: Started XML-RPC server [http://localhost:44063/]
+[rospy.init][INFO] 2018-06-14 13:52:34,386: ROS Slave URI: [http://localhost:44063/]
+[rospy.impl.masterslave][INFO] 2018-06-14 13:52:34,387: _ready: http://localhost:44063/
+[xmlrpc][INFO] 2018-06-14 13:52:34,397: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-14 13:52:34,401: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-14 13:52:34,489: registered with master
+[rospy.rosout][INFO] 2018-06-14 13:52:34,489: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-14 13:52:34,501: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-14 13:52:34,509: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-14 13:52:34,530: connected to core topic /clock
+[rosout][INFO] 2018-06-14 13:52:34,561: Loading model XML from ros parameter
+[rospy.internal][INFO] 2018-06-14 13:52:34,597: topic[/clock] adding connection to [http://localhost:39657/], count 0
+[rosout][INFO] 2018-06-14 13:52:34,595: Waiting for service /gazebo/spawn_urdf_model
+[rosout][INFO] 2018-06-14 13:52:34,642: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2018-06-14 13:52:34,730: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-14 13:52:36,852: Spawn status: SpawnModel: Successfully spawned entity
+[rosout][INFO] 2018-06-14 13:52:36,855: Waiting for service /gazebo/set_model_configuration
+[rosout][INFO] 2018-06-14 13:52:36,915: temporary hack to **fix** the -J joint position option (issue #93), sleeping for 1 second to avoid race condition.
+[rosout][INFO] 2018-06-14 13:52:37,919: Calling service /gazebo/set_model_configuration
+[rosout][INFO] 2018-06-14 13:52:37,943: Set model configuration status: SetModelConfiguration: success
+[rospy.core][INFO] 2018-06-14 13:52:37,945: signal_shutdown [atexit]
+[rospy.internal][INFO] 2018-06-14 13:52:37,988: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-14 13:52:37,995: topic[/clock] removing connection to http://localhost:39657/
+[rospy.impl.masterslave][INFO] 2018-06-14 13:52:37,997: atexit

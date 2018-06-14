@@ -4,20 +4,15 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1528897053 181923158) [Msg] Waiting for master.
-(1528897053 184869706) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1528897053 185043461) [Msg] Publicized address: 172.17.0.2
-(1528897053 809914301) [Wrn] [ModelDatabase.cc:340] Getting models from[http://gazebosim.org/models/]. This may take a few seconds.
-(1528897114 242143173) Init world[default]
-(1528897116 298521614) applying Gaussian noise model with mean 0, stddev 0.007, bias 0
-(1528897116 422665288) applying Gaussian noise model with mean 0, stddev 0.007, bias -0
-(1528897116 530833525) applying Gaussian noise model with mean 0, stddev 0.007, bias -0
-(1528897117 151996186) ODESliderJoint::SetAnchor not implemented.
-(1528897117 153247070) ODESliderJoint::SetAnchor not implemented.
-(1528897117 161113554) ODESliderJoint::SetAnchor not implemented.
-(1528897117 161696057) ODESliderJoint::SetAnchor not implemented.
-(1528897160 48063998) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/local/info, deleting message. This warning is printed only once.
-(1528897160 114610594) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/physics/contacts, deleting message. This warning is printed only once.
-(1528897160 208955752) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/info, deleting message. This warning is printed only once.
-(1528897160 892121943) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/baxter/left_wrist/ir_left/scan, deleting message. This warning is printed only once.
-(1528897160 892209407) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/baxter/right_wrist/ir_right/scan, deleting message. This warning is printed only once.
+(1528985697 323982000) [Msg] Waiting for master.
+(1528985697 327047100) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1528985697 327198900) [Msg] Publicized address: 172.17.0.2
+(1528985698 351257500) Init world[default]
+(1528985703 642413400) applying Gaussian noise model with mean 0, stddev 0.007, bias -0
+(1528985703 769260100) applying Gaussian noise model with mean 0, stddev 0.007, bias 0
+(1528985703 913141200) applying Gaussian noise model with mean 0, stddev 0.007, bias -0
+(1528985704 344453500) ODESliderJoint::SetAnchor not implemented.
+(1528985704 345665800) ODESliderJoint::SetAnchor not implemented.
+(1528985704 350329300) ODESliderJoint::SetAnchor not implemented.
+(1528985704 350511700) ODESliderJoint::SetAnchor not implemented.
+(1528985712 663633800) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/local/info, deleting message. This warning is printed only once.
